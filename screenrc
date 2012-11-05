@@ -1,0 +1,6 @@
+startup_message off
+hardstatus alwayslastline
+hardstatus string "%{bk}[ %{G}%H :: $USER %{b}][%= %{wk}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{b}][%{B} %D %Y.%m.%d %{w}%c %{b}]"
+
+screen -t x         0 startx
+screen -t amuled    1 amuled
