@@ -1,0 +1,89 @@
+! Base16 Monokai
+! Scheme: Wimer Hazenberg (http://www.monokai.nl)
+! Slightly modified for readability and taste, some inspiration from the base colors (https://github.com/chriskempson/base16)
+
+#define base00 #000000
+#define base01 #cc4142
+#define base02 #49483e
+#define base03 #75715e
+#define base04 #75b5aa
+#define base05 #f8f8f2
+#define base06 #f5f4f1
+#define base07 #f9f8f5
+#define base08 #f92672
+#define base09 #fd971f
+#define base0A #f4bf75
+#define base0B #a6e22e
+#define base0C #a1efe4
+#define base0D #0009ef
+#define base0E #ae81ff
+#define base0F #cc6633
+
+*.foreground:   base05
+*.background:   base00
+*.cursorColor:  base05
+! Black + DarkGrey
+*.color0:       base00
+*.color8:       base03
+! DarkRed + Red
+*.color1:       base08
+*.color9:       base09
+! DarkGreen + Green
+*.color2:       base0B
+*.color10:      base01
+! DarkYellow + Yellow
+*.color3:       base0A
+*.color11:      base02
+! DarkBlue + Blue
+*.color4:       base0D
+*.color12:      base04
+! DarkMangenta + Mangenta
+*.color5:       base0E
+*.color13:      base06
+! DarkCyan + Cyan
+*.color6:       base0C
+*.color14:      base0F
+! LightGrey + White
+*.color7:       base05
+*.color15:      base07
+
+! What follows is an interpretation of https://github.com/altercation/es-etc/blob/master/xorg/.Xresources
+! merged liberally with the old .Xdefaults
+*font:           xft:Terminus:style=Medium:pixelsize=12
+*mfont:          xft:Terminus:style=Medium:pixelsize=12
+*boldFont:       xft:Terminus:style=Bold:pixelsize=12
+*italicFont:     xft:Terminus:style=Medium:pixelsize=12
+*boldItalicFont: xft:Terminus:style=Bold:pixelsize=12
+
+!*font:           -*-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+!*mfont:          -*-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+!*boldFont:       -*-terminus-bold-r-normal--12-*-*-*-*-*-*-*
+!*italicFont:     -*-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+!*boldItalicFont: -*-terminus-bold-r-normal--12-*-*-*-*-*-*-*
+
+! urxvt settings
+urxvt*saveLines:        32767
+urxvt*scrollTtyKeypress:true
+urxvt*scrollTtyOutput:  false
+urxvt*scrollBar:        false
+urxvt*loginShell:       true
+urxvt*internalBorder:   0
+urxvt*print-pipe:       cat > $(echo urxvt.dump.`date +'%Y%M%d%H%m%S'`)
+urxvt*secondaryScroll:  true
+urxvt*mapAlert:         true
+urxvt*utmpInhibit:      true
+urxvt*urlLauncher:      firefox
+
+! xterm settings
+xterm*dynamicColors:    true
+xterm*utf8:             2
+xterm*eightBitInput:    true
+xterm*saveLines:        32767
+xterm*scrollTtyKeypress:true
+xterm*scrollTtyOutput:  false
+xterm*scrollBar:        false
+xterm*loginShell:       true
+xterm*faceName:         Terminus:pixelsize=12
+
+Xft*dpi:                96
+Xft*antialias:          true

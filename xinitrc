@@ -18,5 +18,8 @@ xsetroot -cursor_name left_ptr
 # Enable compose key: http://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations
 setxkbmap -option compose:menu
 
+# Read configuration options
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+
 # Start xmonad with custom script
 /home/arrakis/scripts/run-xmonad.sh
