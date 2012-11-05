@@ -1,0 +1,5 @@
+".*"
+
+# Thumbs button are, respectively, backward and forward in browser history
+None, Button4, Alt_L|Left
+None, Button5, Alt_L|Right
