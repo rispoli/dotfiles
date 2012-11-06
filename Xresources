@@ -1,51 +1,33 @@
-! Base16 Monokai
-! Scheme: Wimer Hazenberg (http://www.monokai.nl)
-! Slightly modified for readability and taste, some inspiration from the base colors (https://github.com/chriskempson/base16)
+! Colors from wolfcore (https://bbs.archlinux.org/viewtopic.php?pid=1084641#p1084641)
+! Cyan from Miblo (https://bbs.archlinux.org/viewtopic.php?pid=1116856#p1116856)
 
-#define base00 #000000
-#define base01 #cc4142
-#define base02 #49483e
-#define base03 #75715e
-#define base04 #75b5aa
-#define base05 #f8f8f2
-#define base06 #f5f4f1
-#define base07 #f9f8f5
-#define base08 #f92672
-#define base09 #fd971f
-#define base0A #f4bf75
-#define base0B #a6e22e
-#define base0C #a1efe4
-#define base0D #0009ef
-#define base0E #ae81ff
-#define base0F #cc6633
-
-*.foreground:   base05
-*.background:   base00
-*.cursorColor:  base05
+*.foreground:   #cccccc
+*.background:   #000000
+*.cursorColor:  #cccccc
 ! Black + DarkGrey
-*.color0:       base00
-*.color8:       base03
-! DarkRed + Red
-*.color1:       base08
-*.color9:       base09
-! DarkGreen + Green
-*.color2:       base0B
-*.color10:      base01
-! DarkYellow + Yellow
-*.color3:       base0A
-*.color11:      base02
-! DarkBlue + Blue
-*.color4:       base0D
-*.color12:      base04
-! DarkMangenta + Mangenta
-*.color5:       base0E
-*.color13:      base06
-! DarkCyan + Cyan
-*.color6:       base0C
-*.color14:      base0F
-! LightGrey + White
-*.color7:       base05
-*.color15:      base07
+*.color0:       #000000
+*.color8:       #666666
+! Red + DarkRed
+*.color1:       #e84f4f
+*.color9:       #d23d3d
+! Green + DarkGreen
+*.color2:       #b7ce42
+*.color10:      #bde077
+! Yellow + DarkYellow
+*.color3:       #fea63c
+*.color11:      #ffe863
+! Blue + DarkBlue
+*.color4:       #66a9b9
+*.color12:      #aaccbb
+! Mangenta + DarkMangenta
+*.color5:       #b7416e
+*.color13:      #e16a98
+! Cyan + DarkCyan
+*.color6:       #33ffff
+*.color14:      #99ffff
+! White+ LightGrey
+*.color7:       #cccccc
+*.color15:      #ffffff
 
 ! What follows is an interpretation of https://github.com/altercation/es-etc/blob/master/xorg/.Xresources
 ! merged liberally with the old .Xdefaults
