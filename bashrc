@@ -15,6 +15,8 @@ alias puertocolon='$HOME/scripts/webcam.sh http://usuarios.lycos.es/canariaswebc
 
 alias log='$HOME/scripts/log.sh'
 
+alias dus='du -s * | sort -n | cut -f 2- | xargs -Ix du -hs x'
+
 PS1='\[\033[01;31m\](\[\033[01;37m\]\t\[\033[01;31m\] - \[\033[01;37m\]\u@\h \w\[\033[01;31m\])\[\033[00m\]\$ '
 
 export LC_ALL='en_US.UTF-8'
