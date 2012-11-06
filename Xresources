@@ -85,5 +85,5 @@ xterm*scrollBar:        false
 xterm*loginShell:       true
 xterm*faceName:         Terminus:pixelsize=12
 
-Xft*dpi:                96
+Xft*dpi:                72
 Xft*antialias:          true
