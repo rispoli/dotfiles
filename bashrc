@@ -17,6 +17,9 @@ alias log='$HOME/scripts/log.sh'
 
 alias dus='du -s * | sort -n | cut -f 2- | xargs -Ix du -hs x'
 
+alias img_server='ssh daniele@img-server.di.unito.it -i $HOME/.ssh/img-server'
+alias legal_informatics='ssh handler@legal-informatics.di.unito.it -i $HOME/.ssh/legal-informatics'
+
 PS1='\[\033[01;31m\](\[\033[01;37m\]\t\[\033[01;31m\] - \[\033[01;37m\]\u@\h \w\[\033[01;31m\])\[\033[00m\]\$ '
 
 export LC_ALL='en_US.UTF-8'
